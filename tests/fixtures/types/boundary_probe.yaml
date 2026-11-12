@@ -1,0 +1,19 @@
+kind: boundary.test/Record
+version: test-v1
+schema:
+  value:
+    type: string
+    required: true
+initial_state: new
+states:
+  new:
+    transitions:
+      finish: done
+  done:
+    terminal: true
+actions:
+  create:
+    requires: [boundary.create]
+  finish:
+    requires: [boundary.finish]
+read_requires: [boundary.read]
