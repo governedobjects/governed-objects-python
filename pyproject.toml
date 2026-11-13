@@ -20,6 +20,7 @@ dependencies = [
 ]
 
 [project.urls]
+Homepage = "https://governedobjects.com/"
 Source = "https://github.com/governedobjects/governed-objects-python"
 Issues = "https://github.com/governedobjects/governed-objects-python/issues"
 Specification = "https://github.com/governedobjects/governed-objects-spec"
