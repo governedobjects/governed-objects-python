@@ -10,14 +10,14 @@ for the normative rules this runtime implements and tests against.
 
 ## Status
 
-Experimental, version 0.2.0, `0.x`. This is not a production product,
+Experimental, version 0.2.1, `0.x`. This is not a production product,
 conformance certification, or interoperability approval. It targets
 specification revision `draft2.2` and self-reports 76/0/2/0 (pass/not
-applicable/not executable/fail) against the staged Core conformance suite for that revision;
+applicable/not executable/fail) against Core conformance suite 0.1.0 for that revision;
 see the conformance adapter below to reproduce that result yourself. The
 suite's own claim text for that run:
 
-> governed-objects-python 0.2.0 passes the Governed Objects Conformance Suite
+> governed-objects-python 0.2.1 passes the Governed Objects Conformance Suite
 > 0.1.0 for v0alpha1 draft2.2 Core (self-attested; not certified). Not
 > executed by suite 0.1.0: D22-CON-001, D22-CS4-003. Conditional capabilities
 > claimed: create_with_relationships, governance_reconfiguration,
@@ -26,6 +26,12 @@ suite's own claim text for that run:
 > unconditional_mutation.
 
 ## Install
+
+```sh
+pip install governed-objects
+```
+
+### From a source checkout
 
 ```sh
 python3 -m venv .venv
@@ -149,6 +155,6 @@ WSL. The adapters are `bash` scripts.
 
 ## License
 
-This runtime is licensed under Apache 2.0; see [LICENSE](LICENSE), [NOTICE](NOTICE) and
-[LICENSING.md](LICENSING.md). Contribution terms are in [CONTRIBUTING.md](CONTRIBUTING.md).
-Report security issues as described in [SECURITY.md](SECURITY.md).
+This runtime is licensed under Apache 2.0; see [LICENSE](https://github.com/governedobjects/governed-objects-python/blob/main/LICENSE), [NOTICE](https://github.com/governedobjects/governed-objects-python/blob/main/NOTICE) and
+[LICENSING.md](https://github.com/governedobjects/governed-objects-python/blob/main/LICENSING.md). Contribution terms are in [CONTRIBUTING.md](https://github.com/governedobjects/governed-objects-python/blob/main/CONTRIBUTING.md).
+Report security issues as described in [SECURITY.md](https://github.com/governedobjects/governed-objects-python/blob/main/SECURITY.md).
